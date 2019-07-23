@@ -1,33 +1,3 @@
-SublimeLinter-pycodestyle
-=========================
+![LineLengthBear](https://user-images.githubusercontent.com/15197846/61751380-23360600-ad76-11e9-9619-62c071deb932.gif)
 
-[![Build Status](https://travis-ci.org/SublimeLinter/SublimeLinter-pycodestyle.svg?branch=master)](https://travis-ci.org/SublimeLinter/SublimeLinter-pycodestyle)
-
-This linter plugin for [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter) provides an interface to [pycodestyle](https://github.com/PyCQA/pycodestyle).
-It will be used with files that have the "Python" syntax.
-
-
-## Installation
-
-SublimeLinter must be installed in order to use this plugin. 
-
-Please use [Package Control](https://packagecontrol.io) to install the linter plugin.
-
-Before installing this plugin, ensure that `pycodestyle` (1.4.6 or later) is installed on your system.
-To install `pycodestyle`, do the following:
-
-1. For best performance, install [Python 3](http://python.org) and [pip](http://www.pip-installer.org/en/latest/installing.html).
-
-1. Install `pycodestyle` by typing the following in a terminal, replacing '3.x' with the available version of pip:
-   ```
-   [sudo] pip-3.x install pycodestyle
-   ```
-
-Please make sure that the path to `pycodestyle` is available to SublimeLinter.
-The docs cover [troubleshooting PATH configuration](http://sublimelinter.com/en/latest/troubleshooting.html#finding-a-linter-executable).
-
-
-## Settings
-
-- SublimeLinter settings: http://sublimelinter.com/en/latest/settings.html
-- Linter settings: http://sublimelinter.com/en/latest/linter_settings.html
+![pep8](https://user-images.githubusercontent.com/15197846/61751437-4eb8f080-ad76-11e9-9e5f-3c21cde1000c.gif)

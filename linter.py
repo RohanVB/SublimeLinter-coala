@@ -1,13 +1,14 @@
-from SublimeLinter.lint import Linter
+from SublimeLinter.lint import Linter, PythonLinter
+# from run_coala import UseCoala
 
+# todo: fix regex and use coala-on-single-file
 
-class newcoalalinter(Linter):
+class coala(PythonLinter):
     cmd = ('coala --format')
-    regex = r'^.+?:(?P<line>\d+):'
+    regex = r'^.*:line:(?P<line>\d+):\w+:(?P<col>\w+):\S+:(?P<message>(.+))'
     multiline = True
     defaults = {
         'selector': 'source.python',
-        '--select=,': '',
-        '--ignore=,': '',
-        '--max-line-length=': None
     }
+
+# ^.*:line:(?P<line>\d+):\w+:(?P<col>\d+):\w+:\d:\w+:\d+:\w+:\d:\w+:\w+:\w+:(?P<message>.+
